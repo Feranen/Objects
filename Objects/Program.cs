@@ -17,3 +17,14 @@ Name Convention: PascalCase
         ...
     ...
  */
+
+using Objects.Models;
+
+List<Hero> team = new List<Hero>();
+
+Hero Arthas = new Hero();
+Arthas.name = "Arthas";
+Arthas.className = "Death Knight";
+Arthas.health = 100;
+
+team.Add(Arthas);
